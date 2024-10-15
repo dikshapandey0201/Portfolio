@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    266deg,
+    rgba(0, 0, 0, 1) 32%,
+    rgba(28, 22, 22, 1) 55%,
+    rgba(48, 52, 52, 1) 99%
+  );
+}
+.cardBg {
+  background: rgb(0, 0, 0);
+  /* background: rgb(38, 36, 36); */
+  /* background: linear-gradient(
+    266deg,
+    rgba(38, 36, 36, 1) 0%,
+    rgba(40, 38, 38, 1) 23%,
+    rgba(50, 48, 48, 1) 100%
+  ); */
+  background: linear-gradient(
+    266deg,
+    rgb(27, 26, 26) 32%,
+    rgb(24, 21, 21) 55%,
+    rgb(32, 34, 34) 99%
+  );
+}
+.cardStroke {
+  border: 1px solid #383636;
+}
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.blending {
+  mix-blend-mode: color-dodge;
+}
