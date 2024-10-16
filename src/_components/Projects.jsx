@@ -8,7 +8,7 @@ function Projects() {
     <section className="w-full h-full">
       <h1 className="text-[50px] px-10 text-stone-400">My work</h1>
 
-      <div className="mt-8 flex items-center justify-evenly gap-14 md:px-20 px-10 w-full">
+       <div className="mt-8 flex items-center md:flex-row flex-col justify-evenly gap-14 md:px-20 px-10 w-full">
         <div className="w-full rounded-md md:max-w-[350px] lg:w-1/3 cursor-pointer  duration-500 ease-in-out hover:scale-[1.02]">
           <a
             href="https://vercel.live/link/the-wild-oasis-website-alpha-eight.vercel.app/"
